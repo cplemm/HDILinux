@@ -1,4 +1,1 @@
-"# HDILinux" 
-"# HDILinux" 
-"# HDILinux" 
-"# HDILinux" 
+HDInsight 12-core cluster on Linux
