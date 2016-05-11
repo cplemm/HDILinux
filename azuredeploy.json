@@ -110,9 +110,9 @@
           "roles": [
             {
               "name": "headnode",
-              "targetInstanceCount": "1",
+              "targetInstanceCount": "2",
               "hardwareProfile": {
-                "vmSize": "Standard_D3"
+                "vmSize": "Standard_D2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
@@ -125,7 +125,7 @@
               "name": "workernode",
               "targetInstanceCount": "[parameters('clusterWorkerNodeCount')]",
               "hardwareProfile": {
-                "vmSize": "Standard_D3"
+                "vmSize": "Standard_D2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
