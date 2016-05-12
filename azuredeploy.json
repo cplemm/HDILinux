@@ -90,7 +90,7 @@
     {
       "name": "[parameters('clusterName')]",
       "type": "Microsoft.HDInsight/clusters",
-      "location": "[resourceGroup().location]",
+      "location": "[parameters('location')]",
       "apiVersion": "[variables('clusterApiVersion')]",
       "dependsOn": [ "[concat('Microsoft.Storage/storageAccounts/',parameters('clusterStorageAccountName'))]" ],
       "tags": {
